@@ -14,6 +14,7 @@ import {
   services,
   testimonials,
   whyChooseUs,
+  companiesAndClients,
 } from "@shared/schema";
 import {
   ArrowRight,
@@ -388,6 +389,38 @@ export default function Home() {
                 <ArrowRight className="h-4 w-4" />
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Companies & Clients */}
+      <section className="py-20 bg-muted/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <Badge variant="secondary" className="mb-4">
+              Our Clients
+            </Badge>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              Trusted by Leading Companies
+            </h2>
+            <p className="text-muted-foreground">
+              We work with top companies for corporate training and placement partnerships
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {companiesAndClients.map((company) => (
+              <Card
+                key={company.id}
+                className="overflow-visible"
+                data-testid={`client-${company.id}`}
+              >
+                <CardContent className="p-4 flex items-center justify-center min-h-[80px]">
+                  <span className="font-medium text-sm text-center text-muted-foreground">
+                    {company.name}
+                  </span>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>

@@ -135,8 +135,8 @@ export default function CourseDetail() {
               <Card className="overflow-visible sticky top-24">
                 <CardContent className="p-6 space-y-6">
                   <div className="text-center space-y-2">
-                    <p className="text-sm text-muted-foreground">Starting from</p>
-                    <p className="text-3xl font-bold">Contact for Pricing</p>
+                    <p className="text-3xl font-bold">Get Started Today</p>
+                    <p className="text-sm text-muted-foreground">Free counseling available</p>
                   </div>
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-sm">
