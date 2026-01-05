@@ -123,7 +123,7 @@ export default function CourseDetail() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-primary" />
-                  <span>100+ Enrolled</span>
+                  <span>100+ Students</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Award className="h-5 w-5 text-primary" />
@@ -157,8 +157,8 @@ export default function CourseDetail() {
                     </div>
                   </div>
                   <Link href="/contact" className="block">
-                    <Button className="w-full" size="lg" data-testid="button-enroll-course">
-                      Enroll Now
+                    <Button className="w-full" size="lg" data-testid="button-enquire-course">
+                      Enquire Now
                     </Button>
                   </Link>
                   <Link href="/contact" className="block">
@@ -245,7 +245,7 @@ export default function CourseDetail() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact">
               <Button size="lg" variant="secondary">
-                Enroll Now
+                Enquire Now
               </Button>
             </Link>
             <Link href="/contact">

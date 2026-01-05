@@ -15,6 +15,8 @@ import {
   GraduationCap,
   Wrench,
   Briefcase,
+  Heart,
+  Landmark,
 } from "lucide-react";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -27,6 +29,8 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   GraduationCap,
   Wrench,
   Briefcase,
+  Heart,
+  Landmark,
 };
 
 const serviceDetails: Record<
@@ -157,6 +161,34 @@ const serviceDetails: Record<
       "Professional skills",
       "Job-ready experience",
       "Reference letters",
+    ],
+  },
+  "csr-programs": {
+    features: [
+      "Community skill development",
+      "Underprivileged youth training",
+      "Women empowerment programs",
+      "Rural digital literacy",
+    ],
+    benefits: [
+      "Social impact reporting",
+      "CSR compliance support",
+      "Community engagement",
+      "Sustainable development",
+    ],
+  },
+  "govt-programs": {
+    features: [
+      "PMKVY aligned training",
+      "Skill India partnerships",
+      "State government schemes",
+      "Employment-focused curriculum",
+    ],
+    benefits: [
+      "Government certification",
+      "Job placement support",
+      "Subsidized training",
+      "Mass skill development",
     ],
   },
 };

@@ -135,6 +135,8 @@ export const services: Service[] = [
   { id: "campus-training", name: "Campus Training", description: "Industry-ready training for students", icon: "GraduationCap" },
   { id: "workshops", name: "Workshops", description: "Hands-on workshops on trending technologies", icon: "Wrench" },
   { id: "internships", name: "Internships", description: "Real-world project experience for students", icon: "Briefcase" },
+  { id: "csr-programs", name: "CSR Skill Programs", description: "Corporate Social Responsibility initiatives for community skill development and empowerment", icon: "Heart" },
+  { id: "govt-programs", name: "Government Skill Programs", description: "Partnership programs with government bodies for employment-focused skill development", icon: "Landmark" },
 ];
 
 // Placement Partners
@@ -161,16 +163,6 @@ export const companiesAndClients: CompanyClient[] = [
   { id: "4", name: "BPO Convergences", type: "corporate" },
   { id: "5", name: "JD Overseas", type: "corporate" },
   { id: "6", name: "Ushnik Technologies", type: "startup" },
-  { id: "7", name: "TechMahindra", type: "corporate" },
-  { id: "8", name: "Infosys", type: "corporate" },
-  { id: "9", name: "Wipro", type: "corporate" },
-  { id: "10", name: "HCL Technologies", type: "corporate" },
-  { id: "11", name: "Cognizant", type: "corporate" },
-  { id: "12", name: "Accenture", type: "corporate" },
-  { id: "13", name: "Capgemini", type: "corporate" },
-  { id: "14", name: "IBM India", type: "corporate" },
-  { id: "15", name: "Oracle India", type: "corporate" },
-  { id: "16", name: "Microsoft India", type: "corporate" },
 ];
 
 // Upcoming Batch

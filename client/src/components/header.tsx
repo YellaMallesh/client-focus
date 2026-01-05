@@ -161,7 +161,7 @@ export function Header() {
           <div className="flex items-center gap-2">
             <ThemeToggle />
             <Link href="/contact" className="hidden sm:block">
-              <Button data-testid="button-enroll-now">Enroll Now</Button>
+              <Button data-testid="button-enquire-now">Enquire Now</Button>
             </Link>
             <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
               <SheetTrigger asChild className="lg:hidden">
@@ -233,7 +233,7 @@ export function Header() {
                   </nav>
                   <div className="p-4 border-t">
                     <Link href="/contact" onClick={() => setMobileOpen(false)}>
-                      <Button className="w-full">Enroll Now</Button>
+                      <Button className="w-full">Enquire Now</Button>
                     </Link>
                   </div>
                 </div>
