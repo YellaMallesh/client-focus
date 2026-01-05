@@ -52,8 +52,6 @@ const navItems = [
   { name: "About", href: "/about" },
   { name: "Courses", href: "/courses", hasMega: true },
   { name: "Services", href: "/services" },
-  { name: "Placements", href: "/placements" },
-  { name: "Career", href: "/career" },
   { name: "Contact", href: "/contact" },
 ];
 

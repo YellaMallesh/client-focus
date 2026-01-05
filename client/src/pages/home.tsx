@@ -7,7 +7,6 @@ import { ServiceCard } from "@/components/service-card";
 import { TestimonialCard } from "@/components/testimonial-card";
 import { StatsSection } from "@/components/stats-section";
 import { PartnerLogos } from "@/components/partner-logos";
-import { UpcomingBatches } from "@/components/upcoming-batches";
 import {
   courseCategories,
   allCourses,
@@ -283,24 +282,6 @@ export default function Home() {
               </Button>
             </Link>
           </div>
-        </div>
-      </section>
-
-      {/* Upcoming Batches */}
-      <section className="py-20 bg-muted/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <Badge variant="secondary" className="mb-4">
-              Enroll Now
-            </Badge>
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Upcoming Batches
-            </h2>
-            <p className="text-muted-foreground">
-              Limited seats available. Reserve your spot in our upcoming batches
-            </p>
-          </div>
-          <UpcomingBatches />
         </div>
       </section>
 

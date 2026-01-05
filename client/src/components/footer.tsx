@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { courseCategories, services, placementPartners } from "@shared/schema";
+import { courseCategories, services, companiesAndClients } from "@shared/schema";
 import {
   GraduationCap,
   MapPin,
@@ -190,19 +190,14 @@ export function Footer() {
               2024 iFocus Info Solutions. All rights reserved.
             </div>
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-              <span>Placement Partners:</span>
-              {placementPartners.slice(0, 3).map((partner, i) => (
-                <span key={partner} className="font-medium">
-                  {partner}
+              <span>Our Clients:</span>
+              {companiesAndClients.slice(0, 3).map((client, i) => (
+                <span key={client.id} className="font-medium">
+                  {client.name}
                   {i < 2 && ","}
                 </span>
               ))}
-              <Link
-                href="/placements"
-                className="text-primary hover:underline"
-              >
-                +more
-              </Link>
+              <span className="text-primary">+more</span>
             </div>
           </div>
         </div>

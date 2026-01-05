@@ -11,8 +11,6 @@ import About from "@/pages/about";
 import Courses from "@/pages/courses";
 import CourseDetail from "@/pages/course-detail";
 import Services from "@/pages/services";
-import Placements from "@/pages/placements";
-import Career from "@/pages/career";
 import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
 
@@ -24,8 +22,6 @@ function Router() {
       <Route path="/courses" component={Courses} />
       <Route path="/courses/:id" component={CourseDetail} />
       <Route path="/services" component={Services} />
-      <Route path="/placements" component={Placements} />
-      <Route path="/career" component={Career} />
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
     </Switch>

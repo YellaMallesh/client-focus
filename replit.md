@@ -15,7 +15,6 @@ A comprehensive IT training institute website for iFocus Info Solutions, featuri
 │   │   │   ├── testimonial-card.tsx # Testimonial card
 │   │   │   ├── stats-section.tsx   # Statistics display
 │   │   │   ├── partner-logos.tsx   # Partner logos grid
-│   │   │   ├── upcoming-batches.tsx # Batch schedule table
 │   │   │   └── theme-toggle.tsx    # Dark/light mode toggle
 │   │   ├── pages/          # Route pages
 │   │   │   ├── home.tsx            # Homepage
@@ -23,8 +22,6 @@ A comprehensive IT training institute website for iFocus Info Solutions, featuri
 │   │   │   ├── courses.tsx         # Course listing page
 │   │   │   ├── course-detail.tsx   # Individual course page
 │   │   │   ├── services.tsx        # Services page
-│   │   │   ├── placements.tsx      # Placements page
-│   │   │   ├── career.tsx          # Career guidance page
 │   │   │   └── contact.tsx         # Contact form page
 │   │   ├── lib/            # Utilities
 │   │   │   ├── queryClient.ts      # React Query setup
