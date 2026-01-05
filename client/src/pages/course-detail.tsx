@@ -141,7 +141,7 @@ export default function CourseDetail() {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-sm">
                       <Calendar className="h-4 w-4 text-muted-foreground" />
-                      <span>Next batch: January 2025</span>
+                      <span>Flexible training schedule</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm">
                       <Monitor className="h-4 w-4 text-muted-foreground" />
@@ -240,7 +240,7 @@ export default function CourseDetail() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-lg opacity-90 mb-8">
-            Join our next batch and take the first step towards your dream career.
+            Take the first step towards your dream career with our skill development programs.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact">

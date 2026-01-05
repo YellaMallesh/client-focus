@@ -165,16 +165,6 @@ export const companiesAndClients: CompanyClient[] = [
   { id: "6", name: "Ushnik Technologies", type: "startup" },
 ];
 
-// Upcoming Batch
-export interface UpcomingBatch {
-  id: string;
-  courseName: string;
-  startDate: string;
-  duration: string;
-  seatsAvailable: number;
-  mode: "Online" | "Offline" | "Hybrid";
-}
-
 // Testimonials
 export interface Testimonial {
   id: string;

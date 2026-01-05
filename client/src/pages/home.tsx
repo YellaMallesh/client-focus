@@ -68,17 +68,15 @@ export default function Home() {
               <div className="space-y-4">
                 <Badge variant="secondary" className="text-sm px-4 py-1.5">
                   <Sparkles className="h-4 w-4 mr-2" />
-                  <span className="mr-2">New Year, New Skills</span>
-                  <span className="text-primary mx-1">|</span>
-                  <span>Batches Starting January 2025</span>
+                  <span>Empowering India Through Skill Development</span>
                 </Badge>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                   Transform Your{" "}
                   <span className="text-gradient">Tech Career</span> With Us
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
-                  Industry-leading IT training programs with 100% placement assistance.
-                  Join 5000+ successful alumni working at top tech companies.
+                  Partnering with government initiatives to deliver quality skill development
+                  programs. Building India's workforce through PMKVY & Skill India aligned training.
                 </p>
               </div>
               <div className="flex flex-wrap gap-4">
