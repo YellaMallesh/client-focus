@@ -33,6 +33,7 @@ import {
   Target,
   Calendar,
   Play,
+  Sparkles,
 } from "lucide-react";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -66,8 +67,10 @@ export default function Home() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <Badge variant="secondary" className="text-sm px-4 py-1.5">
-                  <span className="mr-2">New Batches Starting</span>
-                  <span className="text-primary">January 2025</span>
+                  <Sparkles className="h-4 w-4 mr-2" />
+                  <span className="mr-2">New Year, New Skills</span>
+                  <span className="text-primary mx-1">|</span>
+                  <span>Batches Starting January 2025</span>
                 </Badge>
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
                   Transform Your{" "}
